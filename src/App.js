@@ -44,7 +44,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Souurce Language</h1>
+    <h1 xlassName= "heading">Language Translator Application</h1>
+      <h2>Source Language</h2>
       <select
         name="source"
         onChange={(e) => {
@@ -60,7 +61,7 @@ function App() {
         <option value="es">Spanish</option>
       </select>
       <br />
-      <h1>Target Language</h1>
+      <h2>Target Language</h2>
 
       <select
         name="target"
